@@ -1,0 +1,96 @@
+.family-law {
+    .all-law {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left-law {
+            h2 {
+                color: var(--brand-black-light);
+                font-size: 40px;
+                width: 70%;
+                line-height: 60px;
+                margin: 30px 0;
+            }
+
+            p {
+                font-size: 16px;
+                color: var(--brand-second-primary);
+                font-weight: normal;
+                width: 71%;
+
+                line-height: 28px;
+            }
+
+            ul {
+
+                margin: 50px 0;
+
+                li {
+                    margin: 20px 0;
+
+                    .circle-img {
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+
+                        .left-circle {
+                            margin-right: 50px;
+
+
+                        }
+
+                        .right-circle {
+                            h3 {
+                                font-size: 22px;
+
+                                color: var(--brand-black-light);
+                                margin: 10px 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .border-law {
+                border: 1px solid var(--brand-second-primary);
+                width: 70%;
+                margin-top: 30px;
+                border-width: 0.5px 0 0 0;
+            }
+
+            .girl-img-one {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 40%;
+                margin: 30px 0;
+
+                .right-slide-one {
+                    h3 {
+                        font-size: 26px;
+                        color: var(--brand-black-light);
+                        font-weight: normal;
+
+                        margin: 5px 0;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        color: var(--brand-second-primary);
+                        font-weight: 100;
+
+
+                    }
+                }
+            }
+
+        }
+
+        .right-law {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

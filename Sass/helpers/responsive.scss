@@ -1,0 +1,509 @@
+@media screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+
+    header {
+        .menu {
+
+            .navbar {
+                display: none;
+            }
+
+
+            .humburger {
+                display: block;
+
+
+            }
+        }
+    }
+
+    .slider {
+        height: 100%;
+
+
+
+        .slider-heading {
+            h1 {
+                font-size: 40px;
+
+                width: 100%;
+                line-height: 50px;
+
+            }
+
+            p {
+
+                font-size: 16px;
+                width: 80%;
+                line-height: 30px;
+                margin: 30px 0;
+
+            }
+        }
+
+        .slider-img {
+
+
+            .right-slide {
+
+
+                h3 {
+                    font-size: 22px;
+                    margin: 5px 0;
+                }
+
+                span {
+                    font-size: 14px;
+
+
+                }
+            }
+        }
+    }
+
+    .four-box {
+
+
+        ul {
+            display: block;
+            background: none;
+            box-shadow: none;
+            top: 0;
+            padding: 20px 100px;
+            width: 100%;
+
+
+            li {
+                margin: 30px 0;
+                padding: 0;
+                width: 100%;
+
+
+                h3 {
+                    width: 100%;
+
+                    font-size: 18px;
+
+
+                }
+            }
+
+        }
+    }
+
+    .high {
+
+
+        .pannel-high {
+            display: block;
+
+
+            .right-high {
+
+                margin: 0;
+
+                h2 {
+                    font-size: 26px;
+                    line-height: 40px;
+                    margin-top: 50px;
+                    width: 80%;
+                }
+
+                p {
+
+                    font-size: 14px;
+                    width: 100%;
+                    line-height: 26px;
+
+                }
+
+                .circle-double {
+                    margin: 10px 0;
+
+
+
+                    span {
+                        font-size: 14px;
+                        width: 100%;
+
+                    }
+                }
+
+                .down-circle {
+
+
+                    span {
+                        width: 100%;
+                        font-size: 14px;
+
+
+                    }
+                }
+
+                .border {
+
+                    width: 100%;
+                }
+
+                .girl-img {
+                    width: 81%;
+
+                    .right-slide {
+                        h3 {
+                            font-size: 26px;
+                            color: var(--brand-second-primary);
+                            font-weight: normal;
+                            font-style: italic;
+                            margin: 5px 0;
+                        }
+
+                        span {
+                            font-size: 16px;
+                            color: var(--brand-second-primary);
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .appointment {
+
+
+        padding: 20px 0;
+        height: 500px;
+
+
+
+
+        .all-appointment {
+            display: block;
+            text-align: center;
+
+            .left-appointment {
+                img {
+                    width: 100%;
+                }
+            }
+
+
+
+
+            .center-appointment {
+                margin: 40px 0;
+
+                h3 {
+                    font-size: 26px;
+
+
+                }
+            }
+
+
+        }
+    }
+
+    .card-wrapper {
+
+
+        .all-line {
+
+
+            span {
+                font-size: 14px;
+
+            }
+
+            h3 {
+                font-size: 30px;
+
+            }
+        }
+
+        ul {
+            display: block;
+
+            li {
+                width: 100%;
+
+
+
+                .girl {
+                    width: 100%;
+
+
+
+                    img {
+                        width: 100%;
+                        display: block;
+
+
+
+
+
+                    }
+
+
+
+
+                }
+
+
+                .girl-text {
+
+
+
+
+                    h3 {
+                        font-size: 16px;
+
+                    }
+
+                    h2 {
+                        font-size: 22px;
+
+                    }
+                }
+
+
+
+            }
+        }
+
+    }
+
+    .lawyers {
+        height: 1000px;
+
+        .two-line {
+            display: block;
+
+            .left-line {
+                h2 {
+                    font-size: 24px;
+
+                    width: 100%;
+                }
+
+            }
+
+            .right-line {
+                p {
+                    font-size: 14px;
+                    line-height: 30px;
+                    margin: 20px 0;
+                    width: 68%;
+                }
+            }
+        }
+
+        ul {
+            display: block;
+
+            li {
+                padding: 40px 20px;
+                margin: 20px 0;
+
+                .lawyers-card {
+                    display: block;
+
+                    .img-lawyers {
+                        img {
+
+                            width: 20%;
+                        }
+                    }
+
+                    .text-lawyers {
+                        margin: 10px 0;
+                        font-size: 18px;
+
+                        width: 100%;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    .case-number {
+        margin: 100px 0 500px 0;
+        z-index: 1;
+        display: none;
+
+        ul {
+            display: block;
+            background: none;
+            box-shadow: none;
+            position: absolute;
+            box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+            top: 0;
+            width: 100%;
+            padding: 20px 100px;
+
+
+            li {
+                margin: 20px 0;
+                padding: 0;
+                width: 100%;
+
+
+                h2 {
+                    font-size: 30px;
+
+                }
+
+                h3 {
+
+                    font-size: 20px;
+
+
+                }
+            }
+
+        }
+    }
+
+    .our-team {
+
+
+        .all-line {
+
+
+            span {
+                font-size: 14px;
+
+            }
+
+            h3 {
+                font-size: 30px;
+
+            }
+        }
+
+        ul {
+            display: block;
+
+            li {
+                width: 100%;
+                margin: 30px 0;
+
+
+                .team-name {
+
+
+                    h2 {
+                        font-size: 20px;
+                    }
+
+                    p {
+
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .company {
+        display: none;
+    }
+
+    .family-law {
+        margin: 1000px 0 0 0;
+        .all-law {
+           
+            display: flex;
+            flex-direction: column;
+            
+
+            .left-law {
+                order: 2;
+                h2 {
+
+                    font-size: 30px;
+                    width: 100%;
+                    line-height: 50px;
+
+                }
+
+                p {
+                    font-size: 14px;
+
+                    width: 100%;
+
+
+                }
+
+                ul {
+
+                    
+
+                    li {
+                        
+
+                        .circle-img {
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+
+                         
+
+                            .right-circle {
+                                h3 {
+                                    font-size: 18px;
+                                    display: block;
+
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .border-law {
+                   
+                    width: 100%;
+                   
+                }
+
+                .girl-img-one {
+                  
+                    width: 70%;
+                   
+
+                    .right-slide-one {
+                        h3 {
+                            font-size: 24px;
+                           
+                        }
+
+                        span {
+                            font-size: 14px;
+                            
+
+
+                        }
+                    }
+                }
+
+            }
+
+            .right-law {
+               
+               
+                img {
+                    width: 100%;
+                
+                }
+            }
+        }
+    }
+
+}

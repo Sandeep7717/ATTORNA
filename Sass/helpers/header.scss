@@ -1,0 +1,94 @@
+header {
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+
+        .humburger {
+            display: none;
+        }
+
+        .navbar {
+            >ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                >li {
+
+                    position: relative;
+
+                    a {
+                        color: var(--brand-black-light);
+                        font-size: 14px;
+                        padding: 38px 20px;
+                    }
+
+                    .icon-call {
+                        img {
+                            vertical-align: middle;
+                            margin: 0 5px;
+                        }
+                    }
+
+                    &:hover ul {
+
+                        opacity: 1;
+                        visibility: visible;
+                        transform: rotateX(0);
+                    }
+
+                    ul {
+                        position: absolute;
+                        left: 0;
+                        top: 34px;
+                        background: var(--brand-primary);
+                        width: 220px;
+                        flex-direction: column;
+                        opacity: 0;
+                        visibility: hidden;
+                        transform: rotateX(-92deg);
+                        transform-origin: 0 0;
+                        transition: transform .8s, opacity .4s;
+                        margin: 20px 0;
+                        z-index: 1;
+
+
+                        li {
+                            a {
+                                display: block;
+                                padding: 15px 15px;
+
+                                font-size: 16px;
+                                transition: 0.5s all ease;
+                                color: var(--white);
+
+                                &:hover {
+                                    background: var(--white);
+                                    color: var(--brand-primary);
+
+                                }
+                            }
+                        }
+
+                    }
+
+                    img {
+                        padding: 0 5px;
+                        width: 22px;
+                        transition: .5s ease all;
+                    }
+
+                    &:hover {
+                        a {
+                            img {
+                                transform: rotate(180deg);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

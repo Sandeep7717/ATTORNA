@@ -1,0 +1,115 @@
+.contact {
+    background: url(../../images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 100px 0;
+    z-index: 1;
+
+    .contact-heading {
+        text-align: center;
+        color: var(--white);
+
+        h2 {
+            font-size: 40px;
+            margin-top: 40px;
+
+        }
+
+        p {
+            font-size: 20px;
+            margin: 20px 0;
+
+        }
+
+        h3 {
+            font-size: 26px;
+
+        }
+    }
+
+    .input {
+        background: var(--white);
+        z-index: 1;
+        padding: 50px 40px;
+
+        width: 70%;
+        margin: 70px auto;
+        border-radius: 5px;
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+
+        .all-line-text {
+            text-align: center;
+
+            span {
+                font-size: 16px;
+                color: var(--brand-primary);
+         
+
+            }
+
+            h3 {
+                font-size: 30px;
+                color: var(--brand-black-light);
+                margin: 10px 0;
+            }
+        }
+
+        .input-all {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: auto;
+          
+            margin: 20px 0;
+
+            .input-one {
+                margin: 20px;
+
+                input {
+                    width: 350px;
+                    height: 45px;
+                    border: 1px solid var(--brand-border);
+                    border-radius: 5px;
+                    padding: 10px;
+                }
+            }
+
+
+
+        }
+
+        textarea {
+            width: 740px;
+            height: 150px;
+            border: 1px solid var(--brand-border);
+            border-radius: 5px;
+            padding: 15px 25px;
+            margin-left: 20px;
+        }
+
+        .button-input {
+            background: var(--brand-primary);
+            padding: 15px 100px;
+
+            border-radius: 5px;
+            display: inline-block;
+            margin: 40px 250px;
+            cursor: pointer;
+            transition: 0.9s ease all;
+
+
+            a {
+                font-size: 16px;
+                color: var(--white);
+            }
+
+            &:hover {
+                background: var(--black);
+
+            }
+        }
+    }
+}

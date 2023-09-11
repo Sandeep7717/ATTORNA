@@ -1,0 +1,173 @@
+.blog {
+    padding: 100px 0;
+    position: relative;
+
+    .all-line {
+        text-align: center;
+
+        span {
+            font-size: 16px;
+            color: var(--brand-primary);
+        }
+
+        h3 {
+            font-size: 40px;
+            color: var(--brand-black-light);
+            margin: 10px 0;
+        }
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0;
+
+        li {
+            background: var(--white);
+            box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 20px);
+
+            .main-img {
+                width: 100%;
+                z-index: 1;
+                position: relative;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    display: block;
+                }
+
+                .effect {
+                    background: rgb(224, 160, 103, 0.80);
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    position: absolute;
+                    z-index: 1;
+                    height: 100%;
+                    opacity: 0;
+                    transition: 0.9s ease all;
+                    transform: translateX(-50%);
+
+
+                }
+
+                &:hover .effect {
+                    opacity: 1;
+                    visibility: visible;
+
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.08);
+                }
+            }
+
+            .blog-heading {
+                padding: 30px 20px;
+
+
+                .top-heading {
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+
+                    .left-blog-heading {
+                        img {
+                            vertical-align: middle;
+                        }
+
+                        span {
+                            color: var(--brand-primary);
+                            font-size: 16px;
+                            vertical-align: middle;
+                            margin: 0 5px;
+                        }
+                    }
+
+                    .right-blog-heading {
+                        margin: 0 10px;
+
+                        img {
+                            vertical-align: middle;
+                        }
+
+                        span {
+                            color: var(--brand-primary);
+                            font-size: 16px;
+                            vertical-align: middle;
+                            margin: 0 5px;
+                        }
+                    }
+                }
+
+                h3 {
+                    font-size: 22px;
+                    width: 80%;
+                    line-height: 30px;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    transition: 0.9s ease all;
+
+                    &:hover {
+                        color: var(--brand-primary);
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    color: var(--brand-second-primary);
+                    line-height: 28px;
+                    font-weight: normal;
+                    width: 81%;
+                    margin: 10px 0;
+                }
+
+                .blog-btn {
+                    background: var(--brand-primary);
+                    padding: 15px 30px;
+                    border-radius: 2px;
+                    display: inline-block;
+
+                    a {
+                        color: var(--white);
+                        font-size: 16px;
+                    }
+                }
+            }
+
+
+        }
+
+    }
+
+
+
+    .four-box {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        position: absolute;
+        bottom: 50px;
+        left: 700px;
+
+        a {
+            .one-box {
+                width: 15px;
+                height: 15px;
+                border-radius: 2px;
+                background: var(--brand-primary);
+                margin: 0 5px;
+            }
+
+            .two-box {
+                width: 15px;
+                height: 15px;
+                border-radius: 2px;
+                background: var(--brand-primary-light);
+                margin: 0 5px;
+            }
+        }
+    }
+}

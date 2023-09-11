@@ -1,0 +1,108 @@
+.card-wrapper {
+    padding: 100px 0;
+
+    .all-line {
+        text-align: center;
+
+        span {
+            font-size: 16px;
+            color: var(--brand-primary);
+        }
+
+        h3 {
+            font-size: 40px;
+            color: var(--brand-black-light);
+            margin: 15px 0;
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+
+        li {
+            width: calc(31.33% - 10px);
+            margin: 20px 0;
+            position: relative;
+
+
+
+            .girl {
+                width: 90%;
+                z-index: -1;
+                position: relative;
+                overflow: hidden;
+
+
+                img {
+                    width: 100%;
+                    display: block;
+
+                 
+
+
+
+                }
+
+                .effect {
+                    background: rgb(224, 160, 103, 0.80);
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    position: absolute;
+                    z-index: 1;
+                    height: 100%;
+                    opacity: 0;
+                    transition: 0.9s ease all;
+                    transform: translateX(-50%);
+                 
+                   
+                }
+
+
+            }
+
+            .icon-family {
+                position: absolute;
+                top: 20px;
+                left: 30px;
+
+                img {
+                    width: 80%;
+                }
+            }
+
+            .girl-text {
+                position: absolute;
+                left: 30px;
+                bottom: 20px;
+
+
+
+                h3 {
+                    font-size: 16px;
+                    color: var(--white);
+                }
+
+                h2 {
+                    font-size: 24px;
+                    color: var(--white);
+                    font-weight: 500;
+                    margin: 5px 0;
+                }
+            }
+
+
+            &:hover .effect {
+                opacity: 1;
+                visibility: visible;
+               
+                 transform: scale(1.1);
+                 -webkit-transform: scale(1.08);
+            }
+        }
+    }
+
+}

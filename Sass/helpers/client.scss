@@ -1,0 +1,153 @@
+.client {
+    background: url(../../images/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    position: relative;
+
+    .all-line-testimonal {
+        text-align: center;
+        padding-top: 400PX;
+
+        span {
+            font-size: 16px;
+            color: var(--brand-primary);
+        }
+
+        h3 {
+            font-size: 40px;
+            color: var(--brand-black-light);
+            margin: 15px 0;
+        }
+    }
+
+    ul {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 100px;
+
+
+        li {
+            background: var(--white);
+            padding: 30px 40px;
+            width: 50%;
+            margin: 0 20px;
+            box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+
+
+            img {
+                vertical-align: middle;
+            }
+
+            span {
+                vertical-align: middle;
+                margin: 0 10px;
+                font-size: 16px;
+                color: var(--brand-primary);
+                font-style: italic;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 16px;
+                color: var(--brand-second-primary);
+                width: 88%;
+                line-height: 30px;
+                margin: 10px 0;
+            }
+        }
+
+    }
+
+
+
+
+    .girl-img-one {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20%;
+        margin: 30px 0;
+        position: absolute;
+        bottom: 150px;
+        left: 238px;
+
+        .right-slide-one {
+            h3 {
+                font-size: 26px;
+                color: var(--brand-black-light);
+                font-weight: normal;
+
+                margin: 5px 0;
+            }
+
+            span {
+                font-size: 16px;
+                color: var(--brand-second-primary);
+                font-weight: 100;
+
+
+            }
+        }
+    }
+
+    .girl-img-two {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20%;
+        margin: 30px 0;
+        position: absolute;
+        bottom: 150px;
+        right: 438px;
+
+        .right-slide-one {
+            h3 {
+                font-size: 26px;
+                color: var(--brand-black-light);
+                font-weight: normal;
+
+                margin: 5px 0;
+            }
+
+            span {
+                font-size: 16px;
+                color: var(--brand-second-primary);
+                font-weight: 100;
+
+
+            }
+        }
+    }
+
+    .four-box {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        position: absolute;
+        bottom: 100px;
+        left: 700px;
+
+        a {
+            .one-box {
+                width: 15px;
+                height: 15px;
+                border-radius: 2px;
+                background: var(--brand-primary);
+                margin: 0 5px;
+            }
+
+            .two-box {
+                width: 15px;
+                height: 15px;
+                border-radius: 2px;
+                background: var(--brand-primary-light);
+                margin: 0 5px;
+            }
+        }
+    }
+}
